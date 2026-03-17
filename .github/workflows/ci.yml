@@ -24,6 +24,4 @@ jobs:
 
         - name: Run tests
           run: |
-            cd app
-            uvicorn main:app --reload
             pytest
