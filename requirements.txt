@@ -7,3 +7,7 @@ python-multipart
 pytest
 pytest-cov
 httpx
+pydantic
+pydantic-settings
+pdfplumber
+google-genai
