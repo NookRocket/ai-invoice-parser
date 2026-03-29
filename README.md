@@ -105,8 +105,8 @@ curl -X POST http://localhost:8000/parse-invoic \
 invoice-parser/
 ├── app/
 │   ├── main.py       # FastAPI app + extraction logic
-│   ├── ocr.py
-│   ├── parser.py
+│   ├── extractor.py
+│   ├── llm_parser.py
 │   ├── schemas.py
 ├── tests/            # Pytest
 └── requirements.txt

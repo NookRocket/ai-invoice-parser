@@ -1,8 +1,8 @@
 import json
 import base64
 from fastapi import FastAPI, UploadFile, HTTPException
-from app.ocr import extract_text_from_pdf
-from app.parser import parse_invoice_from_image, parse_invoice_from_text
+from app.extractor import extract_text_from_pdf
+from app.llm_parser import parse_invoice_from_image, parse_invoice_from_text
 
 app = FastAPI()
 
