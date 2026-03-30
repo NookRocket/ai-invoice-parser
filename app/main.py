@@ -31,7 +31,3 @@ async def parse_invoice(file: UploadFile):
         invoice = parse_invoice_from_image(contents)   
 
     return invoice
-
-# if __name__ == "__main__":
-#     import uvicorn
-#     uvicorn.run(app, host="0.0.0.0", port=8000, reload=True)

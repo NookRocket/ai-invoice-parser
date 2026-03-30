@@ -44,7 +44,7 @@ http://127.0.0.1:8000/docs
 | Method | Endpoint | Description |
 |--------|----------|-------------|
 | GET | `/` | Health check |
-| POST | `/parse-invoic` | Extract invoice fields |
+| POST | `/parse-invoice` | Extract invoice fields |
 
 ### Extract Invoice
 
